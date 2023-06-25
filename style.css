@@ -194,6 +194,7 @@ header{
     font-size: 2rem;
     color: var(--thrid-color);
 }
+
 /* tokenomic */
 
 .headingtok{
@@ -226,7 +227,7 @@ header{
 .shop-container .box{
     flex: 1 1 10rem;
     background: var(--thrid-color);
-    padding: 20px;
+    padding: 120px;
     display: flex;
     text-align: center;
     flex-direction: column;
@@ -242,6 +243,13 @@ header{
 }
 
 .shop-container .box .box-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.shop-container .box .box-img video{
     width: 100%;
     height: 100%;
     object-fit: contain;
@@ -336,6 +344,66 @@ header{
     margin: 0.5rem 0 1rem;
     text-align: justify;
 }
+
+/* roadmaps */
+.shop{
+    background-color: var(--grey-color);
+}
+
+.shop-containerr{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 5rem;
+}
+
+.shop-containerr .box{
+    flex: 1 1 10rem;
+    background: var(--thrid-color);
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    border-radius: 0.5rem;
+}
+
+.shop-containerr .box .box-img{
+    width: 150px;
+    height: 150px;
+    margin-top: -100px;
+}
+
+.shop-containerr .box .box-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.stars{
+    margin: 1rem 0 0.1rem;
+}
+
+.shop-containerr .box .stars .bx{
+    color: #ebdbc8;
+}
+
+.shop-containerr .box h2{
+    color: #000000;
+    font-size: 1.2rem;
+}
+
+.shop-containerr .box span{
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0.1rem 0 0.5rem;
+    
+    align-content: flex-start;
+}
+/* end roadmaps */
 
 .contact{
     background: var(--grey-color);
